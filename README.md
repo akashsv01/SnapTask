@@ -123,16 +123,6 @@ Key files:
 - External links open with `noopener noreferrer`.
 - `.env` files are ignored; `.env.example` contains no secret.
 
-## Deploy to Vercel
-
-1. Push this repository to GitHub, GitLab, or Bitbucket.
-2. Import the repository in Vercel.
-3. Keep the detected Next.js framework settings and default build command (`npm run build`).
-4. Add `GEMINI_API_KEY` under Project Settings → Environment Variables.
-5. Deploy.
-
-Vercel automatically provides the production host value used for absolute social metadata. No additional application environment variable is required.
-
 ## Scope decisions
 
 We intentionally kept SnapTask stateless and account-free for the hackathon. Instead of building a screenshot storage platform, we focused on proving that multimodal AI can convert passive screenshots into structured, prioritized action.
